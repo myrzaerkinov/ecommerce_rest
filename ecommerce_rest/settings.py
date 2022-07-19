@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'main_class',
     'django_filters'
 
+
 ]
 
 REST_FRAMEWORK = {
