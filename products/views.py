@@ -84,6 +84,7 @@ def authorization(request):
     return Response(data={'ERROR': 'USER NOT FOUND'},
                     status=status.HTTP_404_NOT_FOUND)
 
+
 from django.contrib.auth.models import User
 
 @api_view(['POST'])
@@ -93,7 +94,6 @@ def register(request):
     User.objects.create_user(username=username, password=password)
     return Response(data={'MESSAGE': "USER CREATED"},
                     status=status.HTTP_201_CREATED)
-
 
 
 @api_view(['GET'])

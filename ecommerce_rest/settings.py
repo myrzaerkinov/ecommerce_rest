@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-if os.environ.get('DEBUG') == 'on':
+if os.environ.get('DEBUG') == 'off':
     DEBUG = True
 else:
     DEBUG = False
@@ -44,8 +44,7 @@ INSTALLED_APPS = [
     'products',
     'rest_framework.authtoken',
     'main_class',
-    'django_filters'
-
+    'django_filters',
 
 ]
 

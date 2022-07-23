@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb71a12d-5c8f-4f13-9976-13b4b55f30c4" name="Changes" comment="" />
+    <list default="true" id="eb71a12d-5c8f-4f13-9976-13b4b55f30c4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../products/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +27,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin/PycharmProjects/ecommerce_rest"
+    "last_opened_file_path": "C:/Users/Admin/PycharmProjects/ecommerce_rest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RunManager">
@@ -58,6 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1658202780322</updated>
       <workItem from="1658202781663" duration="34000" />
+      <workItem from="1658229197190" duration="7000" />
+      <workItem from="1658369700740" duration="811000" />
     </task>
     <servers />
   </component>
