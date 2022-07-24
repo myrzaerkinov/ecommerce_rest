@@ -1,9 +1,9 @@
-from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.generics import ListCreateAPIView,\
+    RetrieveUpdateDestroyAPIView, GenericAPIView
 from products.models import Review
 from products.serializers import ReviewSerializer
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.views import APIView
-
 
 class ReviewListCreateAPIView(ListCreateAPIView):
     queryset = Review.objects.all()
@@ -24,7 +24,7 @@ from rest_framework import status
 from .serializers import UserCreateSerializer
 
 
-class RegisterAPIView(APIView):
+class RegisterAPIView(GenericAPIView):
     serializer_class = UserCreateSerializer
     def post(self, request):
         serializer = self.serializer_class(data=request.data)
